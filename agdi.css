@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url(NeueHaasGrotesk.otf);
+    font-size: 5vw;
+}  
+a{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    font-weight: bold;
+}
+#flex-container{
+    display: flex;
+}
+.logo{
+    width: 30%;
+    display: flex;
+}
+#video{
+    margin-left: 2vw;
+    width: 72%;
+}
+
+#history{
+    width: 25%;
+}
+#principles{
+    margin: 4vw;
+    width: 50%;
+}
+#icon{
+    display: flex;
+    margin: 2vw;
+    width: 95%;
+}
+#icons{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+#socials{
+    width: 102%;
+    margin-left: -1vw;
+    display: flex;
+    margin-top: 4vw;
+}
+#brand{
+    display: flex;
+    margin: 1vw;
+    width: 95%;
+}
+
+#applications{
+    width: 101.5%;
+    margin-left: -.5vw;
+    display: flex;
+}
+
+p{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    
+}
+@media only screen and (max-width: 1080px){
+    .logo{
+       width: 50%;
+    }
+}
+hr{
+    color: #363795;
+    margin-bottom: 2vw;
+    margin-left: 0px;
+}
+
+#bio{
+
+    font-size: 1.25vw;
+}
+
+
+h2{
+    font-family: 'NeueHaasGrotesk';
+    text-decoration:none;
+    color: #363795;
+    margin-left: 7vw;
+}
+#work{
+    display:flex;
+    margin-left: 50vw;
+    padding: 1vw;
+}
+footer{
+    text-align: center;
+    color: #363795;
+    font-size: 1vw;
+    margin-top: 10vw;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
+}
