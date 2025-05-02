@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url(NeueHaasGrotesk.otf);
+    font-size: 5vw;
+}  
+a{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    font-weight: bold;
+}
+#flex-container{
+    display: flex;
+    padding-right: 5vw;
+}
+nav{
+    display: inline-flex;
+    margin: auto;
+}
+.logo{
+    display: inline;
+    width: 30%;
+}
+#flex-container{
+    display: inline-flex;
+
+}
+#insta{
+    width: 40%;
+    
+}
+#email{
+    
+    width: 30%;
+}
+#flex-container1{
+    display: inline-flex;
+}
+p{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    
+}
+@media only screen and (max-width: 1080px)
+    .logo{
+       width: 50%;
+    }
+
+hr{
+    color: #363795;
+    margin-bottom: 2vw;
+    margin-left: 0px;
+}
+video{
+    margin-left: 4vw;
+    margin-right: 5vw;
+    width: 35%;
+}
+#bio{
+
+    font-size: 1.25vw;
+    margin-right: 7vw;
+}
+
+
+h2{
+    font-family: 'NeueHaasGrotesk';
+    text-decoration:none;
+    color: #363795;
+    margin-left: 5vw;
+    font-size: xx-large;
+
+}
+#pic5,#pic7, #pic31, #pic22, #pic21, #pic19, #pic11, #pic10{
+    width: 25%;
+    margin: 2vw;
+}
+footer{
+    text-align: center;
+    color: #363795;
+    font-size: 1vw;
+    margin-top: 10vw;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
+}
