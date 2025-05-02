@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url(NeueHaasGrotesk.otf);
+}
+
+a{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    font-weight: bold;
+}
+hr{
+    color: #363795;
+    margin-bottom: 2vw;
+}
+
+nav{
+    display: inline-flex;
+    margin: auto;
+}
+.logo{
+    display: inline;
+    width: 30%;
+}
+#flex-container{
+    display: inline-flex;
+
+}
+#insta{
+    width: 40%;
+    
+}
+#email{
+    
+    width: 30%;
+   
+}
+#maincontent{
+  display:inline-flex;
+
+}
+#bio{
+    margin-left: 5vw;
+    font-size: larger;
+    margin-right: 5vw;
+
+}
+#description{
+    font-size: x-large;
+ 
+}
+#biopic{
+    width: 75%;
+  }
+  #pic{
+  }
+p{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    
+}
+ul{
+    list-style-type: none;
+}
+#creds{
+text-decoration:none;
+
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    font-size: smaller;
+}
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    #p2{ 
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+}
+}
+
+footer{
+    text-align: center;
+    font-size: 1vw;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
+}
