@@ -9,14 +9,14 @@ a{
     font-family: 'NeueHaasGrotesk';
     font-weight: bold;
 }
-hr{
-    color: #363795;
-    margin-bottom: 2vw;
-}
+
 
 nav{
-    display: inline-flex;
+    display: flex;
     margin: auto;
+    margin-bottom: 5vw;
+
+
 }
 .logo{
     display: inline;
@@ -26,13 +26,23 @@ nav{
     display: inline-flex;
 
 }
+#work{
+    display: inline-flex;
+    margin-top: 1vw;
+    margin-right: 1vw;
+
+}
+
 #insta{
     width: 40%;
     
 }
 #email{
-    
-    width: 30%;
+
+    margin-left:-3vw;
+    width: 40%;
+    margin-top: .25vw;
+
    
 }
 #maincontent{
@@ -52,8 +62,7 @@ nav{
 #biopic{
     width: 75%;
   }
-  #pic{
-  }
+
 p{
     text-decoration:none;
     color: #363795;
@@ -87,8 +96,36 @@ text-decoration:none;
 }
 
 footer{
+    margin: 3vw;
     text-align: center;
     font-size: 1vw;
+    display: flex;
+    margin-top: 10avw;
+   
+}
+#copyright{
+    margin-top: 4vw;
+    margin-left: 10vw;
+
+}
+#logofooter{
+ width: 10%;
+    margin-right: 20vw;
+}
+#contactfooter{
+    justify-content: flex-end;
+    margin-left: 20vw;
+    margin-right: -10vw;
+    margin-top: 3vw;
+}
+#instafooter{
+    width: 10%;
+}
+#emailfooter{
+
+    width: 10%;
+ 
+   
 }
 @media only screen and (max-width: 1080px){
     footer{
