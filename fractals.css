@@ -10,27 +10,37 @@ a{
     font-weight: bold;
 }
 nav{
-    display: inline-flex;
+    display: flex;
+    justify-content: flex-end;
     margin: auto;
+    margin-bottom: 5vw;
 }
 .logo{
     display: inline;
-    width: 30%;
+    width: 10%;
+    padding: 2vw;
 }
 #flex-container{
     display: inline-flex;
 
 }
+#work{
+    display: inline-flex;
+    margin-top: 1vw;
+    margin-right: 1vw;
+
+}
 #insta{
-    width: 40%;
+    width: 70%;
+    margin-right: -15vw;
     
 }
 #email{
-    
-    width: 30%;
+    width: 28%;
+    margin-top: .15vw;
+margin-right: -7vw;
    
 }
-
 #flex-container1{
     display: flex;
  
@@ -48,14 +58,7 @@ nav{
     width: 45%;
     display: block;
    }
-.logo{
-    width: 30%;
-    display: flex;
-}
-.nav li a{
-    display:inline-flex;
-    list-style-type: none;
-  }
+
 
 p{
     text-decoration:none;
@@ -93,10 +96,36 @@ h2{
 
 }
 footer{
+    margin: 3vw;
     text-align: center;
-    color: #363795;
     font-size: 1vw;
-    margin-top: 10vw;
+    display: flex;
+    margin-top: 10avw;
+   
+}
+#copyright{
+    margin-top: 4vw;
+    margin-left: 10vw;
+
+}
+#logofooter{
+ width: 10%;
+    margin-right: 20vw;
+}
+#contactfooter{
+    justify-content: flex-end;
+    margin-left: 20vw;
+    margin-right: -10vw;
+    margin-top: 3vw;
+}
+#instafooter{
+    width: 10%;
+}
+#emailfooter{
+
+    width: 10%;
+ 
+   
 }
 @media only screen and (max-width: 1080px){
     footer{
