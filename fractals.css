@@ -53,6 +53,10 @@ margin-right: -7vw;
 #guidetext{
  width: 85%;
 }
+#static{
+    width:100%;
+    margin-bottom: 5vw;
+}
 #timelineposter{
     margin:auto;
     width: 45%;
