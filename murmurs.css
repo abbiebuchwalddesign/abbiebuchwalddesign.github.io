@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url(NeueHaasGrotesk.otf);
+    font-size: 5vw;
+}  
+a{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+.logo{
+    display: inline;
+    width: 10%;
+    padding: 2vw;
+}
+#flex-container{
+    display: inline-flex;
+
+}
+#work{
+    display: inline-flex;
+    margin-top: 1vw;
+    margin-right: 1vw;
+
+}
+#insta{
+    width: 70%;
+    margin-right: -15vw;
+    
+}
+#email{
+    width: 28%;
+    margin-top: .15vw;
+margin-right: -7vw;
+   
+}
+#murmurheader{
+    width: 103%;
+    margin-left: -2vw;
+}
+p{
+    text-decoration:none;
+    color: #363795;
+    font-family: 'NeueHaasGrotesk';
+    
+}
+#text{
+    text-align: center;
+    margin: 7.2vw;
+    font-size: x-large;
+}
+#murmurs1, #murmurs2, #murmurs3, #murmurs4, #murmurs5, #murmurs6, #murmurs7, #murmurs8 {
+    display: flex;
+    margin: 5vw;
+}
+#murmurpic{
+    width: 50%;
+}
+footer{
+    margin: 3vw;
+    text-align: center;
+    font-size: 1vw;
+    display: flex;
+    margin-top: 10avw;
+   
+}
+#copyright{
+    margin-top: 4vw;
+    margin-left: 10vw;
+
+}
+#logofooter{
+ width: 10%;
+    margin-right: 20vw;
+}
+#contactfooter{
+    justify-content: flex-end;
+    margin-left: 20vw;
+    margin-right: -10vw;
+    margin-top: 3vw;
+}
+#instafooter{
+    width: 10%;
+}
+#emailfooter{
+
+    width: 10%;
+ 
+   
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
+}
